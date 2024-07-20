@@ -1,4 +1,4 @@
-public class PatternSolutions{
+public class PatternSolutions19{
 
     public static void pattern19(int n){
 
