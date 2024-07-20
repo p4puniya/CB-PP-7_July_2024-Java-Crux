@@ -44,6 +44,17 @@ class PatternPrinting{
             for(int j=1;j<=i-1 && j<=n;j++)
                 System.out.print("* ");
 
+            System.out.println();
+        }
+        for(int i=n-1;i>=1;i--){
+            // first tri
+            for(int k=1;k<=(n-i);k++)
+                System.out.print("  ");
+            for(int j=1;j<=i;j++)
+                System.out.print("* ");
+            // second tri
+            for(int j=1;j<=i-1 && j<=n;j++)
+                System.out.print("* ");
 
             System.out.println();
         }

@@ -1,5 +1,4 @@
 package Week0.Day1;
-import java.util.Scanner;
 
 public class Datatypes {
     public static void main(String[] args) {
