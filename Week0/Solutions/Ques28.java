@@ -1,5 +1,11 @@
+/*                              1
+                        2       3       2
+                3       4       5       4       3
+        4       5       6       7       6       5       4
+5       6       7       8       9       8       7       6       5
+*/
 package Week0.Solutions;
-public class solutionq28 {
+public class Ques28 {
     public static void main(String[] args) {
         int n = 5 ;
         for (int i=1 ; i<=n ; i++){
@@ -18,9 +24,3 @@ public class solutionq28 {
         } 
     }
 }
-/*                              1
-                        2       3       2
-                3       4       5       4       3
-        4       5       6       7       6       5       4
-5       6       7       8       9       8       7       6       5
-*/
