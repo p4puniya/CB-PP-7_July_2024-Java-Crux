@@ -1,4 +1,4 @@
-package Week0.Day2;
+package Week0.Solutions;
 public class solutionq28 {
     public static void main(String[] args) {
         int n = 5 ;
