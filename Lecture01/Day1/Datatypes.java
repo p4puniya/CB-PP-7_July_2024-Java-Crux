@@ -1,4 +1,4 @@
-package Week0.Day1;
+package Lecture01.Day1;
 
 public class Datatypes {
     public static void main(String[] args) {

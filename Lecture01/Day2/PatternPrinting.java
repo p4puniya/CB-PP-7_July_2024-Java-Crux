@@ -1,3 +1,4 @@
+package Lecture01.Day2;
 import java.util.Scanner;
 class PatternPrinting{
     public static void main(String[] args) {
