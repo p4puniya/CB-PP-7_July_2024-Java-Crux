@@ -1,4 +1,4 @@
-package Week0.Solutions;
+package Lecture01.Solutions;
 
 public class Ques29 {
     public static void main(String[] args) {

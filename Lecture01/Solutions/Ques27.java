@@ -1,3 +1,4 @@
+package Lecture01.Solutions;
 // QUESTION NUMBER 27
 // n = 5
 //                                  1

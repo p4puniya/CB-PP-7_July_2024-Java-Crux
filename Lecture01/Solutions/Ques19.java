@@ -1,5 +1,5 @@
 package Lecture01.Solutions;
-public class PatternSolutions19{
+public class Ques19{
 
     public static void pattern19(int n){
 
