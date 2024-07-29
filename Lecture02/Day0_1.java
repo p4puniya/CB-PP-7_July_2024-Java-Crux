@@ -48,7 +48,7 @@ public class Day0_1 {
     public static void main(String[] args) {
         int[] arr= {1,2,3,4,5,6,7,8,9};
         printArr(arr);
-        reverseUsingSwap(arr);
+        reverseUsingSwap(arr,0,1);
         printArr(arr);
         System.out.println();
         System.out.println();
