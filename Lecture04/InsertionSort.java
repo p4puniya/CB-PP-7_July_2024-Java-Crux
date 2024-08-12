@@ -8,6 +8,7 @@ public class InsertionSort {
     //insertion sort
     static void insertionSort(int arr[]){
         // int n= arr.length;
+        //
         for(int i=1;i<arr.length;i++){
             int key= arr[i];
             int j= i-1;
