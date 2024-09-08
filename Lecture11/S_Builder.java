@@ -18,5 +18,10 @@ public class S_Builder {
         // System.out.println(sb.length());
         // System.out.println(sb.capacity());
         // String s= new String("Hello");
+        // int[] arr= new int[]{1,2,3};
+        // System.out.println(arr);
+        // char[] s= new char[]{1,2,3};
+        // System.out.println(s);
+
     }
 }
