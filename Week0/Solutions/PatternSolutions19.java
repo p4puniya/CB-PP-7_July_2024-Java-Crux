@@ -49,6 +49,6 @@ public class PatternSolutions19{
     }
 
     public static void main(String[] args) {
-        pattern19(7);
+        pattern19(11);
     }
 }
