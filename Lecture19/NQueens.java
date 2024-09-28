@@ -15,7 +15,8 @@ public class NQueens {
         if(i==n){
             //display
             display(board);
-            return true;
+            System.out.println();
+            return false;
         }
 
         for(int j=0;j<n;j++){
@@ -52,7 +53,7 @@ public class NQueens {
 
     //Main Function
     public static void main(String[] args) {
-        int n=4;
+        int n=5;
         board= new int[n][n];
 
         nQueens(board, 0,n);
