@@ -26,8 +26,8 @@ public class BS_SearchSpace {
     }
 }
 
-//1. Aggresive Cows
+//1. Aggresive Cows: 
 //2. Painter's Patition
-//3. Magnetic Balls
-//4. Koko Eating Bananas
+//3. Magnetic Balls: 1552
+//4. Koko Eating Bananas: 875
 //5. Read Books/Book Allocation
