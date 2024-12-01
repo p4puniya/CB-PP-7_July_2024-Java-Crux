@@ -1,4 +1,4 @@
-package Lecture32;
+package Lecture33;
 
 import java.util.*;
 
@@ -6,7 +6,6 @@ public class BellMan_Ford {
 	HashMap<Integer, HashMap<Integer, Integer>> map;
 
 	public BellMan_Ford(int v) {
-		// TODO Auto-generated constructor stub
 		this.map = new HashMap<>();
 		for (int i = 1; i <= v; i++) {
 			map.put(i, new HashMap<>());
@@ -16,7 +15,7 @@ public class BellMan_Ford {
 
 	public void addEdge(int v1, int v2, int cost) {
 
-		map.get(v1).put(v2, cost);// v1--> v2 me Edge with cost
+		map.get(v1).put(v2, cost);
 
 	}
 
@@ -27,7 +26,6 @@ public class BellMan_Ford {
 		int cost;
 
 		public EdgePair(int e1, int e2, int cost) {
-			// TODO Auto-generated constructor stub
 			this.cost = cost;
 			this.e1 = e1;
 			this.e2 = e2;
@@ -86,8 +84,8 @@ public class BellMan_Ford {
 	public static void main(String[] args) {
 		BellMan_Ford bfd = new BellMan_Ford(5);
 		bfd.addEdge(1, 2, 8);
-		// bfd.addEdge(2, 5, -2);
-		bfd.addEdge(2, 5, 2);
+		bfd.addEdge(2, 5, -2);
+		// bfd.addEdge(2, 5, 2);
 		bfd.addEdge(5, 2, 1);
 		bfd.addEdge(4, 5, 4);
 		bfd.addEdge(3, 4, -3);
